@@ -9,7 +9,7 @@ export default component$(() => {
             132K
           </div>
           <p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
-            Downloads
+            Nullam
           </p>
         </div>
         <div class="text-center md:border-r dark:md:border-slate-500 mb-10 md:mb-0">
@@ -17,7 +17,7 @@ export default component$(() => {
             24.8K
           </div>
           <p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
-            Stars
+            Duis
           </p>
         </div>
         <div class="text-center md:border-r dark:md:border-slate-500 font-heading">
@@ -25,7 +25,7 @@ export default component$(() => {
             10.3K
           </div>
           <p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
-            Forks
+            Morbi
           </p>
         </div>
         <div class="text-center">
@@ -33,7 +33,7 @@ export default component$(() => {
             48.4K
           </div>
           <p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
-            Users
+            Pellentesque
           </p>
         </div>
       </div>

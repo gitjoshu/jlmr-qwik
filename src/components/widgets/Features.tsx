@@ -5,19 +5,19 @@ export default component$(() => {
   const items = [
     [
       {
-        title: "Qwik + Tailwind CSS Integration",
+        title: "Quis autem",
         description:
-          "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         icon: "tabler:brand-tailwind",
       },
       {
-        title: "Ready-to-use Components",
+        title: "Lorem Ipsum passage",
         description:
-          "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
+          "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
         icon: "tabler:components",
       },
       {
-        title: "Best Practices",
+        title: "Sed ut perspiciatis",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
         icon: "tabler:list-check",
@@ -25,19 +25,19 @@ export default component$(() => {
     ],
     [
       {
-        title: "Excellent Page Speed",
+        title: "Bonorum et Malorum",
         description:
-          "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
+          "it amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         icon: "tabler:rocket",
       },
       {
-        title: "Search Engine Optimization (SEO)",
+        title: "At vero eos et accusamus",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
         icon: "tabler:arrows-right-left",
       },
       {
-        title: "Open to new ideas and contributions",
+        title: "Finibus Bonorum et Malorum",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
         icon: "tabler:bulb",
@@ -53,7 +53,7 @@ export default component$(() => {
             Features
           </p>
           <h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-            What you get with <span class="whitespace-nowrap">Qwind</span>
+            <span class="whitespace-nowrap">JLMR</span>
           </h2>
           <p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem

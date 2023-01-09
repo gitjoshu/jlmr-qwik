@@ -76,7 +76,7 @@ export const onStaticGenerate: StaticGenerateHandler = async () => {
 };
 
 export const head: DocumentHead = ({ data }: any) => ({
-  title: `${data.title} — Qwind`,
+  title: `${data.title} — JLMR`,
   meta: [
     {
       name: "description",

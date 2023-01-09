@@ -5,37 +5,22 @@ export default component$(() => {
   const items = [
     [
       {
-        question: "What do I need to start?",
-        answer: `Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.
-
-    Many say exploration is part of our destiny, but it’s actually our duty to future generations.`,
+        question: "Lorem ipsum dolor sit amet?",
+        answer: `Nunc eu enim in metus fringilla volutpat. Nulla efficitur elit felis, eget molestie mi aliquet at. Sed dapibus purus quis nibh blandit, a porttitor ex bibendum. Praesent eleifend ligula sem, a varius tellus commodo id.`,
       },
       {
-        question: "How to install the Qwik + Tailwind CSS template?",
-        answer: `Well, the way they make shows is, they make one show. That show's called a pilot.
-
-    Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.`,
-      },
-      {
-        question: "What's something that you completely don't understand?",
-        answer: `A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.`,
+        question: "Sed quis sapien ut lectus faucibus accumsan. Sed a tempus eros?",
+        answer: `Proin interdum placerat ornare. Aenean gravida sed magna at blandit. Nullam consectetur ornare feugiat. Morbi tortor justo, rutrum id scelerisque non, egestas vel ipsum. In at libero cursus, ornare tortor eget, tincidunt est.`,
       },
     ],
     [
       {
-        question: "What's an example of when you changed your mind?",
-        answer: `Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.`,
+        question: "Sed aliquet tempor turpis, non accumsan velit?",
+        answer: `Duis vitae ipsum consequat est molestie rhoncus sit amet id sapien. Sed sit amet massa non nunc viverra pellentesque a vitae justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ullamcorper ante magna, ac commodo quam varius sit amet.`,
       },
       {
-        question: "What is something that you would really like to try again?",
-        answer: `A business big enough that it could be listed on the NASDAQ goes belly up. Disappears!
-
-      It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.`,
-      },
-      {
-        question:
-          "If you could only ask one question to each person you meet, what would that question be?",
-        answer: `This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.`,
+        question: "Donec faucibus sed metus ullamcorper rutrum?",
+        answer: `Vestibulum est purus, semper id nisl eu, vestibulum semper nibh. Praesent gravida, lacus vel aliquet elementum, massa velit varius ex, vitae ornare mauris eros vitae risus. Cras tristique pretium urna. Integer suscipit turpis arcu, eu lobortis leo malesuada gravida.`,
       },
     ],
   ];

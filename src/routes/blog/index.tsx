@@ -1,4 +1,4 @@
-import { component$, useStore, useServerMount$ } from "@builder.io/qwik";
+import { component$, useStore, useTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 import { fetchPosts } from "~/utils/posts";
@@ -9,7 +9,7 @@ export default component$(() => {
     posts: [],
   });
 
-  useServerMount$(async () => {
+  useTask$(async () => {
     const posts = await fetchPosts();
     store.posts = posts.map((post: any) => ({ ...post }));
   });
@@ -79,7 +79,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Blog — Qwind",
+  title: "Blog — JLRM",
   meta: [
     {
       name: "description",

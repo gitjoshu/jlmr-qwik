@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Qwind",
+  name: "JLRM - PAGE",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "JLMR - PAGE",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "JLMR - PAGE es una página web que contiene información sobre el autor y sus proyectos.",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://jlmr-qwik.pages.dev/",
   basePathname: "/",
   trailingSlash: true,
 };
