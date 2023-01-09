@@ -1,7 +1,7 @@
 {
   "name": "jlmr-qwik",
-  "description": "A template to make your website using Qwik + Tailwind CSS.",
-  "version": "0.2.2",
+  "description": "Web for JLMR using Qwik",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "build": "qwik build",
