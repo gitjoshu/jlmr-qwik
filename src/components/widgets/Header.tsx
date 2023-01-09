@@ -80,16 +80,16 @@ export default component$(() => {
             ) : null}
           </nav>
 
-          <ToggleTheme iconClass="w-6 h-6" />
-          {/* <div class="hidden items-center md:flex">
-            <a
+          <div class="hidden items-center md:flex">
+            <ToggleTheme iconClass="w-6 h-6" />
+            {/* <a
               href="https://github.com/onwidget/qwind"
               aria-label="Qwind Github"
               class="ml-3 btn btn-primary w-full h-10 px-5 shadow-none text-base"
             >
               Download
-            </a>
-          </div> */}
+            </a> */}
+          </div>
         </div>
       </div>
     </header>
