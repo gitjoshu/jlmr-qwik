@@ -1,7 +1,7 @@
 {
   "name": "jlmr-qwik",
   "description": "Web for JLMR using Qwik",
-  "version": "0.3.1",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
     "build": "qwik build",
