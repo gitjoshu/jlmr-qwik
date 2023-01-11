@@ -18,7 +18,7 @@
     "preview": "qwik build preview && vite preview --open",
     "postbuild": "npm run subfont",
     "start": "vite --open --mode ssr",
-    "subfont": "subfont dist/index.html -i",
+    "subfont": "subfont dist/index.html -i --inline-css --no-fallbacks --silent --root dist",
     "qwik": "qwik"
   },
   "devDependencies": {
