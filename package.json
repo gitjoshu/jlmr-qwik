@@ -4,7 +4,7 @@
   "version": "0.5.0",
   "private": true,
   "scripts": {
-    "build": "qwik build",
+    "build": "qwik build && pnpm run subfont",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "vite build -c adaptors/static/vite.config.ts",
@@ -18,7 +18,7 @@
     "preview": "qwik build preview && vite preview --open",
     "postbuild": "npm run subfont",
     "start": "vite --open --mode ssr",
-    "subfont": "subfont -i --inline-css --no-fallbacks --silent --root dist",
+    "subfont": "subfont dist/index.html -i",
     "qwik": "qwik"
   },
   "devDependencies": {
