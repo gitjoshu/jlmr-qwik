@@ -19,10 +19,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      # - name: Install dependencies
-      #   run: npm install
-      # - name: Build
-      #   run: npm run build
       - name: Install dependencies
         uses: pnpm/action-setup@v2
         with:
@@ -34,8 +30,6 @@ jobs:
         with:
           name: dist
           path: dist
-      # Run a build step here if your project requires
-
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
