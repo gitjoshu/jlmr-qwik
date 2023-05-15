@@ -30,7 +30,7 @@ export default component$(() => {
               }`}
             >
               {post.image && (
-                <a class="relative block group" href={`/blog/${post.slug}`}>
+                <a class="relative block group" href={`/news/${post.slug}`}>
                   <div class="relative h-0 pb-[56.25%] md:pb-[75%] md:h-80 lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
                     {post.image && (
                       <img
@@ -49,7 +49,7 @@ export default component$(() => {
                   <h2 class="text-xl sm:text-2xl font-bold leading-snug mb-2 font-heading">
                     <a
                       class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
-                      href={`/blog/${post.slug}`}
+                      href={`/news/${post.slug}`}
                     >
                       {post.title}
                     </a>
