@@ -47,10 +47,10 @@ export default component$(() => {
 
   return (
     <section class="scroll-mt-16" id="features">
-      <div class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20">
+      <div class="px-4 py-5 mx-auto max-w-6xl lg:px-8 lg:py-10">
         <div class="mb-10 md:mx-auto sm:text-center md:mb-12 max-w-3xl">
           <p class="text-base text-primary-600 dark:text-purple-200 font-semibold tracking-wide uppercase">
-            Features
+            SERVICES
           </p>
           <h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
             <span class="whitespace-nowrap">JLMR</span>

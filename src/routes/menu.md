@@ -2,7 +2,7 @@
 
 ## Pages
 
-- [Services](#)
-- [About us](#)
+- [Services](/services)
+- [About us](/about-us)
 
-## [Blog](/blog)
+## [News](/news)

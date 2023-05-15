@@ -31,18 +31,6 @@ export default component$(() => {
                     ratione voluptatem sequi nesciunt.
                   </span>
                 </p>
-                <div class="max-w-xs sm:max-w-md flex flex-nowrap flex-col sm:flex-row gap-4 m-auto md:m-0 justify-center md:justify-start">
-                  <div class="flex w-full sm:w-auto">
-                    <button class="btn w-full bg-primary-600 dark:bg-transparent text-violet-50 hover:text-black">
-                      Test
-                    </button>
-                  </div>
-                  <div class="flex w-full sm:w-auto">
-                    <button class="btn w-full bg-gray-50 dark:bg-transparent">
-                      Learn more
-                    </button>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -56,7 +44,7 @@ export default component$(() => {
                   width={1000}
                   height={1250}
                   class="mx-auto w-full rounded-md md:h-full drop-shadow-2xl bg-gray-400 dark:bg-slate-700"
-                  alt="JLRM Hero Image (Cool dog)"
+                  alt="JLMR Hero Image (Cool dog)"
                   loading="eager"
                   decoding="async"
                 />

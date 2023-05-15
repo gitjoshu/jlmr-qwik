@@ -18,7 +18,7 @@ export default component$(() => {
     <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-3xl">
       <header>
         <h1 class="text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-8 md:mb-16 font-heading">
-          Blog
+          News
         </h1>
       </header>
       <ul>
@@ -64,7 +64,6 @@ export default component$(() => {
                       <time dateTime={post.publishDate}>
                         {post.publishDate}
                       </time>{" "}
-                      ~{Math.ceil(post.readingTime)} min read
                     </span>
                   </div>
                   <div class="mt-4">{/* <PostTags tags={post.tags} /> */}</div>
@@ -79,7 +78,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Blog — JLRM",
+  title: "Blog — JLMR",
   meta: [
     {
       name: "description",

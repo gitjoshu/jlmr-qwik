@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "JLRM - PAGE",
+  name: "JLMR - PAGE",
 
   title:
     "JLMR - PAGE",
