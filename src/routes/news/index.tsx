@@ -78,7 +78,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Blog — JLMR",
+  title: "JLMR - NEWS",
   meta: [
     {
       name: "description",
