@@ -1,4 +1,4 @@
-import { component$, useStore, useClientEffect$ } from "@builder.io/qwik";
+import { component$, useStore, useVisibleTask$ } from "@builder.io/qwik";
 
 import { IconSun } from "~/components/icons/IconSun";
 import { IconMoon } from "../icons/IconMoon";
@@ -15,7 +15,7 @@ export default component$((props: ItemProps) => {
       undefined,
   });
 
-  useClientEffect$(() => {
+  useVisibleTask$(() => {
     store.theme =
       window.localStorage.theme === "dark" ||
       (!("theme" in window.localStorage) &&

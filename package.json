@@ -15,15 +15,17 @@
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
-    "preview": "qwik build preview && vite preview --open",
     "postbuild": "npm run subfont",
+    "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
     "subfont": "subfont dist/index.html -i --inline-css --no-fallbacks --silent --root dist",
+    "test.unit": "vitest components",
+    "test.unit.ui": "vitest --ui components",
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "0.16.2",
-    "@builder.io/qwik-city": "0.0.128",
+    "@builder.io/qwik": "1.1.4",
+    "@builder.io/qwik-city": "1.1.4",
     "@fontsource/inter": "^4.5.14",
     "@iconify-json/tabler": "^1.1.54",
     "@tailwindcss/typography": "^0.5.8",
@@ -32,6 +34,7 @@
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "5.48.0",
     "@typescript-eslint/parser": "5.48.0",
+    "@vitest/ui": "^0.31.0",
     "autoprefixer": "10.4.13",
     "eslint": "8.31.0",
     "eslint-plugin-qwik": "0.16.2",
@@ -46,7 +49,8 @@
     "typescript": "4.9.4",
     "vite": "4.0.4",
     "vite-imagetools": "^4.0.13",
-    "vite-tsconfig-paths": "4.0.3"
+    "vite-tsconfig-paths": "4.0.3",
+    "vitest": "^0.31.0"
   },
   "engines": {
     "node": ">=15.0.0"
